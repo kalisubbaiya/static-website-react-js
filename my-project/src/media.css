@@ -1,0 +1,50 @@
+@media (min-width: 360px){
+    .header nav{
+        display: none;
+    }
+    form{
+        width: 100% !important;
+    }
+    .abt-lft, .abt-ryt{
+        width: 100% !important;
+        margin-bottom: 20px;
+        padding: 0 !important;
+    }
+    .contact{
+        width: 90% !important;
+    }
+    .contact-me{
+        width: 100% !important;
+        margin:0 0 40px !important;
+    }
+    .inp1{
+        width: 100% !important;
+    }
+    .inp1:first-child{
+        margin: 0 0 24px;
+    }
+}
+@media (min-width: 600px){
+    form{
+        width: 80% !important;
+    }
+}
+@media (min-width: 976px){
+    .header nav{
+        display: block;
+    }
+    form{
+        width: 35% !important;
+    }
+    .abt-lft{
+        width: 50% !important;
+        padding: 0 20px 0 0 !important;
+    }
+    .abt-ryt{
+        width: 50% !important;
+        padding: 0 0 0 20px !important;
+    }
+    .contact{
+        width: 70% !important;
+    }
+}

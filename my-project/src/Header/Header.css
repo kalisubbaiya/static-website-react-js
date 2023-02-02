@@ -1,0 +1,21 @@
+.header{
+    padding: 16px 0;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    background-color: #000000d1;
+}
+.logo{
+    font-size: 32px;
+}
+.fixed{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.header nav a{
+    display: inline-block;
+    margin: 0 20px 0;
+    font-size: 24px;
+}
